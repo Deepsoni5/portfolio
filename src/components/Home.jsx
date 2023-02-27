@@ -4,9 +4,9 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
 const Home = () => {
   return (
-    <div name="home" className=' sm:h-fit w-full bg-gradient-to-b from-black via-black to-gray-800 lg:h-screen'>
+    <div name="home" className=' w-full bg-gradient-to-b from-black via-black to-gray-800 lg:h-screen'>
           <div className=' max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-              <div className=' flex flex-col justify-center h-full sm:mt-28'>
+              <div className='mt-24 flex flex-col justify-center h-full sm:mt-28'>
                   <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                         I Am a Fullstack Developer
                   </h2>
@@ -14,7 +14,7 @@ const Home = () => {
                       I have an amazing experience of building and designing software.
                       Currently,I love to work on web application
                       using technology like React,Tailwind,Node js,Express js.
-                  </p>``
+                  </p>
 
                   <div>
                       <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
